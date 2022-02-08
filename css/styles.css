@@ -198,31 +198,62 @@ html {
 
   .lluvia{
     background-image: url(../img/lluvia.jpg);
-    background-size: 100%;
+    background-size: cover;
   }
   .despejado{
     background-image: url(../img/despejado.jpg);
-    background-size: 100%;
+    background-size: cover;
   }
   .nublado{
     background-image: url(../img/nublado.jpg);
-    background-size: 100%;
+    background-size: cover;
     
   }
   .nieve{
     background-image: url(../img/nieve.jpg);
-    background-size: 100%;
+    background-size: cover;
     
   }
   .alguna_nube{
     background-image: url(../img/alguna_nube.jpg);
-    background-size: 100%;
+    background-size: cover;
   }
   .niebla{
     background-image: url(../img/niebla.jpg);
-    background-size: 100%;
+    background-size: cover;
     
   }
 .con_fondo_blanco{
   color:rgb(10, 63, 43);
+}
+
+@media all and (max-width: 600px){
+
+  .lluvia{
+    background-image: url(../img/lluvia_movil.jpg);
+    background-size: cover;
+  }
+  .despejado{
+    background-image: url(../img/despejado_movil.jpg);
+    background-size: cover;
+  }
+  .nublado{
+    background-image: url(../img/nublado_movil.jpg);
+    background-size: cover;
+    
+  }
+  .nieve{
+    background-image: url(../img/nieve_movil.jpg);
+    background-size: cover;
+    
+  }
+  .alguna_nube{
+    background-image: url(../img/alguna_nube_movil.jpg);
+    background-size: cover;
+  }
+  .niebla{
+    background-image: url(../img/niebla_movil.jpg);
+    background-size: cover;
+    
+  }
 }
