@@ -227,9 +227,9 @@ html {
   color:rgb(10, 63, 43);
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
   #formulario{
-    transform: scale(80%);
+    transform: scale(70%);
   }
 
   .lluvia{
