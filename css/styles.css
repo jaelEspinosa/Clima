@@ -228,6 +228,9 @@ html {
 }
 
 @media all and (max-width: 600px){
+  #formulario{
+    transform: scale(80%);
+  }
 
   .lluvia{
     background-image: url(../img/lluvia_movil.jpg);
